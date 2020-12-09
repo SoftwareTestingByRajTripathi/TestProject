@@ -20,11 +20,10 @@ public class CFG {
 			}
 			else
 			{
-				//if character is not present in map putting this character into map with 1 as its value 
-				map.put(c,1);
+	//if character is not present in map putting this character into map with 1 as its value 
+		map.put(c,1);
 				
-			}
-		}
+		}}
 			//traverse the hashmap check if the count of the character is grater than 1 then print the 
 			//character and its frequency //
 			for (Map.Entry<Character,Integer> entry : map.entrySet())
@@ -32,15 +31,11 @@ public class CFG {
 				if (entry.getValue()>1)
 				{
 					System.out.println(entry.getKey()+":"+entry.getValue());
-				}
-			}
-			
-		
-		}
+				}}}
 		
 	public static void main(String[] args) {
 		//Given String str
-		String str = "RajKumarTripathi";
+		String str = "rajkumartripathi";
 		//fuction call//
 		countduplicatechar(str);
 		
